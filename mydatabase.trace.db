@@ -159,3 +159,23 @@ curl -X POST http://localhost:8080/finca/create \
     "municipio": "Palmira",
     "precioDefecto": 150.0
 }' [42000-224]
+2024-11-15 16:13:26.345998-05:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*]CONTRASENA"; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "[*]CONTRASENA"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CONTRASENA [42001-224]
+2024-11-15 16:13:34.578318-05:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*]CONTRASENA CONTRASENA TIPO_USUARIO"; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "[*]CONTRASENA CONTRASENA TIPO_USUARIO"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CONTRASENA CONTRASENA TIPO_USUARIO [42001-224]
+2024-11-15 16:13:36.454218-05:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*]CONTRASENA CONTRASENA TIPO_USUARIO"; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "[*]CONTRASENA CONTRASENA TIPO_USUARIO"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CONTRASENA CONTRASENA TIPO_USUARIO [42001-224]
+2024-11-15 16:13:41.625132-05:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*]CONTRASENA CONTRASENA TIPO_USUARIO"; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "[*]CONTRASENA CONTRASENA TIPO_USUARIO"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CONTRASENA CONTRASENA TIPO_USUARIO [42001-224]
+2024-11-15 16:13:55.044603-05:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*]CONTRASENA USUARIO"; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "[*]CONTRASENA USUARIO"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CONTRASENA USUARIO [42001-224]
